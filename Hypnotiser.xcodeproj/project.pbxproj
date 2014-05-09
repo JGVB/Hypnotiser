@@ -10,18 +10,16 @@
 		708BDAF9191C037A00C8CDEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708BDAF8191C037A00C8CDEE /* Foundation.framework */; };
 		708BDAFB191C037A00C8CDEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708BDAFA191C037A00C8CDEE /* CoreGraphics.framework */; };
 		708BDAFD191C037A00C8CDEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708BDAFC191C037A00C8CDEE /* UIKit.framework */; };
-		708BDAFF191C037A00C8CDEE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708BDAFE191C037A00C8CDEE /* CoreData.framework */; };
 		708BDB05191C037A00C8CDEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 708BDB03191C037A00C8CDEE /* InfoPlist.strings */; };
 		708BDB07191C037A00C8CDEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 708BDB06191C037A00C8CDEE /* main.m */; };
 		708BDB0B191C037A00C8CDEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 708BDB0A191C037A00C8CDEE /* AppDelegate.m */; };
-		708BDB0E191C037A00C8CDEE /* Hypnotiser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 708BDB0C191C037A00C8CDEE /* Hypnotiser.xcdatamodeld */; };
 		708BDB10191C037A00C8CDEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708BDB0F191C037A00C8CDEE /* Images.xcassets */; };
 		708BDB17191C037A00C8CDEE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708BDB16191C037A00C8CDEE /* XCTest.framework */; };
 		708BDB18191C037A00C8CDEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708BDAF8191C037A00C8CDEE /* Foundation.framework */; };
 		708BDB19191C037A00C8CDEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708BDAFC191C037A00C8CDEE /* UIKit.framework */; };
-		708BDB1A191C037A00C8CDEE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708BDAFE191C037A00C8CDEE /* CoreData.framework */; };
 		708BDB22191C037A00C8CDEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 708BDB20191C037A00C8CDEE /* InfoPlist.strings */; };
 		708BDB24191C037A00C8CDEE /* HypnotiserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 708BDB23191C037A00C8CDEE /* HypnotiserTests.m */; };
+		708BDB2F191C750100C8CDEE /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708BDB2E191C750100C8CDEE /* BNRHypnosisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,20 +37,20 @@
 		708BDAF8191C037A00C8CDEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		708BDAFA191C037A00C8CDEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		708BDAFC191C037A00C8CDEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		708BDAFE191C037A00C8CDEE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		708BDB02191C037A00C8CDEE /* Hypnotiser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hypnotiser-Info.plist"; sourceTree = "<group>"; };
 		708BDB04191C037A00C8CDEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		708BDB06191C037A00C8CDEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		708BDB08191C037A00C8CDEE /* Hypnotiser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hypnotiser-Prefix.pch"; sourceTree = "<group>"; };
 		708BDB09191C037A00C8CDEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		708BDB0A191C037A00C8CDEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		708BDB0D191C037A00C8CDEE /* Hypnotiser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hypnotiser.xcdatamodel; sourceTree = "<group>"; };
 		708BDB0F191C037A00C8CDEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		708BDB15191C037A00C8CDEE /* HypnotiserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnotiserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		708BDB16191C037A00C8CDEE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		708BDB1F191C037A00C8CDEE /* HypnotiserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnotiserTests-Info.plist"; sourceTree = "<group>"; };
 		708BDB21191C037A00C8CDEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		708BDB23191C037A00C8CDEE /* HypnotiserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnotiserTests.m; sourceTree = "<group>"; };
+		708BDB2D191C750100C8CDEE /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		708BDB2E191C750100C8CDEE /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				708BDAFB191C037A00C8CDEE /* CoreGraphics.framework in Frameworks */,
-				708BDAFF191C037A00C8CDEE /* CoreData.framework in Frameworks */,
 				708BDAFD191C037A00C8CDEE /* UIKit.framework in Frameworks */,
 				708BDAF9191C037A00C8CDEE /* Foundation.framework in Frameworks */,
 			);
@@ -72,7 +69,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				708BDB17191C037A00C8CDEE /* XCTest.framework in Frameworks */,
-				708BDB1A191C037A00C8CDEE /* CoreData.framework in Frameworks */,
 				708BDB19191C037A00C8CDEE /* UIKit.framework in Frameworks */,
 				708BDB18191C037A00C8CDEE /* Foundation.framework in Frameworks */,
 			);
@@ -106,7 +102,6 @@
 				708BDAF8191C037A00C8CDEE /* Foundation.framework */,
 				708BDAFA191C037A00C8CDEE /* CoreGraphics.framework */,
 				708BDAFC191C037A00C8CDEE /* UIKit.framework */,
-				708BDAFE191C037A00C8CDEE /* CoreData.framework */,
 				708BDB16191C037A00C8CDEE /* XCTest.framework */,
 			);
 			name = Frameworks;
@@ -118,8 +113,9 @@
 				708BDB09191C037A00C8CDEE /* AppDelegate.h */,
 				708BDB0A191C037A00C8CDEE /* AppDelegate.m */,
 				708BDB0F191C037A00C8CDEE /* Images.xcassets */,
-				708BDB0C191C037A00C8CDEE /* Hypnotiser.xcdatamodeld */,
 				708BDB01191C037A00C8CDEE /* Supporting Files */,
+				708BDB2D191C750100C8CDEE /* BNRHypnosisView.h */,
+				708BDB2E191C750100C8CDEE /* BNRHypnosisView.m */,
 			);
 			path = Hypnotiser;
 			sourceTree = "<group>";
@@ -248,8 +244,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				708BDB0E191C037A00C8CDEE /* Hypnotiser.xcdatamodeld in Sources */,
 				708BDB0B191C037A00C8CDEE /* AppDelegate.m in Sources */,
+				708BDB2F191C750100C8CDEE /* BNRHypnosisView.m in Sources */,
 				708BDB07191C037A00C8CDEE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,19 +453,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		708BDB0C191C037A00C8CDEE /* Hypnotiser.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				708BDB0D191C037A00C8CDEE /* Hypnotiser.xcdatamodel */,
-			);
-			currentVersion = 708BDB0D191C037A00C8CDEE /* Hypnotiser.xcdatamodel */;
-			path = Hypnotiser.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 708BDAED191C037A00C8CDEE /* Project object */;
 }
